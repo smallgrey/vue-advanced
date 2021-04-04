@@ -1,0 +1,6 @@
+@import "./variable.scss";
+@import "./mixin.scss";
+
+.myBorder {
+  @include bordered($border-color-red, $border-size-normal); // 调用混入，并传递两个参数
+}
